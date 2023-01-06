@@ -1,0 +1,96 @@
+.attribution {
+    font-size: 13px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 58%, 73%);
+}
+
+body {
+    background-color: hsl(217, 54%, 11%);
+    font-family: 'Outfit', sans-serif;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 30px;
+    flex-direction: column;
+    font-weight: 300;
+}
+
+.cartao {
+    background-color: hsl(216, 50%, 16%);
+    border: 1px solid none;
+    border-radius: 10px;
+    box-shadow: 10px 20px 8px 5px #131531;
+    margin: 0 0 100px 0;
+}
+
+.cartao .descricao{
+    font-size: 18px;
+    color: hsl(215, 51%, 70%);
+    max-width: 350px;
+
+}
+
+.cartao .imagem-nft{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.cartao .titulo-descricao .titulo,.descricao {
+    padding: 0 0 15px 20px;
+}
+
+.cartao .titulo-descricao .titulo{
+    pointer-events:visible;
+}
+
+.cartao .imagem-nft img {
+    max-width: 350px;
+    max-height: 400px;
+    width: auto;
+    border: 1px solid none;
+    border-radius: 5px;
+}
+
+.preco-dias {
+    padding: 0 0 15px 20px;
+    display: flex;
+    gap: 120px;
+    color: hsl(215, 51%, 70%);;
+}
+
+.preco-dias .preco{
+    color: hsl(178, 100%, 50%);
+    font-weight: 400;
+}
+
+.criador {
+    font-size: 14px;
+    padding: 15px 0 25px 0px;
+    display: flex;
+    align-items: center;
+    border-top: 0.01px solid hsl(215, 32%, 27%);
+    max-width: 300px;
+    margin: 0 0 0 20px;
+}
+
+.criador .texto-criador{
+    padding: 0 0 0 10px;
+    color: hsl(215, 51%, 70%);
+}
+
+.criador .imagem-criador{
+    width: 30px;
+    border-radius: 70px;
+    border: solid 1px;
+}
+
+a:hover{
+    color: hsl(178, 100%, 50%);
+    transition: 0.5s;
+}

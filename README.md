@@ -5,4 +5,4 @@
 
 <p>Training website using only HTML and CSS</p>
 <br>
-<a href="https://www.frontendmentor.io/home">Frontend Mentor Challenges</a>
+<a href="https://www.frontendmentor.io/home" target="_blank">Frontend Mentor Challenges</a>
